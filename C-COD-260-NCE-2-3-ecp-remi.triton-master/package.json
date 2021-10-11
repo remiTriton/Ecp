@@ -1,0 +1,35 @@
+{
+  "name": "epitechads",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build --mode=production",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^1.8.1",
+    "@vue/cli-service": "^4.5.13",
+    "core-js": "^3.6.5",
+    "notiwind": "^1.2.3",
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.10",
+    "vue": "^3.2.12",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-router": "^4.0.11",
+    "vue-split-carousel": "^2.2.0",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-unit-jest": "^4.5.13",
+    "@vue/compiler-sfc": "^3.2.12",
+    "@vue/test-utils": "^2.0.0-rc.15",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "typescript": "~3.9.3",
+    "vue-jest": "^5.0.0-0"
+  }
+}
